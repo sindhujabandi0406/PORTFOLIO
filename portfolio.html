@@ -1,0 +1,114 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="port.css" />
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <h2 class="logo">Portfolio</h2>
+
+    <nav>
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+<section class="hero" id="about">
+
+  <!-- Hero Image (RIGHT) -->
+  <div class="hero-right-img">
+    <img src="c:\Users\bandi\OneDrive\Desktop\images (2).jpg" alt="Sindhuja Profile Picture" class="profile-img">
+  </div>
+
+  <!-- Hero Content (LEFT) -->
+  <div class="hero-left-content">
+    <h1>Hello, I'm <span class="highlight">Sindhuja</span></h1>
+    <p class="bio">
+      I am a B.Tech student passionate about Web Development and AI/ML.
+      <br>
+      I love building websites and working on real-world projects.
+    </p>
+    <div class="hero-btns">
+      <a href="#projects" class="btn">View Projects</a>
+      <a href="#contact" class="btn btn-outline">Contact Me</a>
+    </div>
+  </div>
+
+</section>
+
+  <!-- Education -->
+  <section class="section" id="education">
+    <h2 class="section-title">Education</h2>
+
+    <div class="card">
+      <h3>B.Tech - Computer Science AI/ML</h3>
+      <p><b>College:</b>Balaji Institute Of Technology and Scienece</p>
+      <p><b>Year:</b> 2024 - 2028</p>
+      <p><b>Location:</b>Warangal, Telangana, India</p>
+    </div>
+
+    <div class="card">
+      <h3>Intermediate / 12th</h3>
+      <p><b>College:</b>Narayana Junior College </p>
+      <p><b>Year:</b> 2022 - 2024</p>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section class="section" id="skills">
+    <h2 class="section-title">Skills</h2>
+
+    <div class="skills-grid">
+      <div class="skill">HTML</div>
+      <div class="skill">CSS</div>
+      <div class="skill">JavaScript</div>
+      <div class="skill">Python</div>
+      <div class="skill">Communication</div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="section" id="projects">
+    <h2 class="section-title">Projects</h2>
+
+    <div class="projects-grid">
+      <div class="project-card">
+        <h3>Job Application Form</h3>
+        <p>A simple job application form using HTML and CSS.</p>
+        <a href="#" class="project-link"><a href="https://sindhujagoud04-hub.github.io/jobapplication/" class="project-link" target="_blank">
+  GitHub Link
+</a>
+
+      </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="section" id="contact">
+    <h2 class="section-title">Contact Me</h2>
+
+    <form class="contact-form" onsubmit="return showMessage()">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+
+    <p id="msg"></p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© 2026 Sindhuja | All Rights Reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
